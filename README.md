@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A model to identify a connected system of habitat blocks and connectors (Act 171) in Addison County, Vermont. It consists of five basic routines.  
+A model to identify a connected system of habitat blocks and connectors (Act 171) in Addison County, Vermont. It consists of the following routines.  
 
 | STEP | SCRIPT | SOURCE | DESCRIPTION |
 | :--:  | :---   | :---:   | :---        | 
