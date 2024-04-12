@@ -13,21 +13,39 @@ Please be prepared to ask me specific questions in seminar next week.
 
 ## Purpose  
 
-This project identifies a connected system of habitat blocks and connectors (Act 171) in the Champlain Lowland Region of Addison County, Vermont. The network connects >95% of all priority blocks to one or more other priority blocks via valley bottom connectors.   
+The goal of this project is to identify a connected system of habitat blocks and connectors (Act 171) in the Champlain Lowland Region of Addison County, Vermont. This project builds on the Vermont Conservation Design (VCD) approach to modeling landscape elements (forest habitat blocks and valley bottom connectors), while recognizing that the environmental history of the Champlain Valley differs from the upland regions of the state.  
+
+Over the last two centuries, land use changes in Vermont's mountainous areas have allowed significant recovery of forest habitat. In these regions, conservation goals aim to identify large blocks of forest habitat to protect from future fragmentation. 
+
+In the Champlain Lowland, agriculture and other land use activities that prevent forest habitat recovery have been more persistent. As a result, forest habitats in the Champlain Lowland form patches that are small in size, long in perimeter, and biased on rocky and swampy lands that are historically difficult to farm.  
+
+This project aims to explore the following questions:  
+
+1. How does the VCD concept of "core" habitat in forest blocks bias conservation priorities in the Champlain Lowland? 
+
+2. How does the current landscape pattern of forest habitat function for connectivity and representativeness?  
+
+3. What valley bottom/riparian areas have the greatest potential for improving connectedness and representativeness of forest habitat in the Champlain Lowlands?
+
+## Expected results   
+
+This project aims to identify three zones with conservation recommendations in the Champlain Lowland. 
+
+| COLOR | ZONE DESCRIPTION | RECOMMENDATIONS |
+|:---:  | :--- | :--- |  
+| <span style="color: #88cc66"><b> GREEN </b></span> | Priority forest habitat blocks. These are patches in between development and agriculture that are characterized by tree canopy, shrub, and grass land cover with high functional value for habitat, rarity, connectedness, and representativeness. | Protect and promote forest habitat; discourage long single- and multi- residence driveways. |  
+| <span style="color: #AC66CC"><b> PURPLE </b></span> | Potential habitat connectors. These valley bottom and riparian corridors connect two or more existing forest habitat blocks but are currently used for agriculture. They have high value to improve connectedness and representativeness of forest habitat. | Protect farmlands and natural reserves; encourage and incentivize reforesting and restorative agriculture. |
+| <span style="color:#66C4CC"><b> BLUE </b></span> | Surface waters. | Protect nearshore riparian habitat. |
+
+---  
 
 ![habitat connectivity model](images/hc-model.png)  
 
-[_Click here for a map of current results._][ee-app] 
+_A screen shot of an initial model run that prioritizes blocks based on core area and rarity and identifies valley bottoms in agriculture that improve overall connectivity._ 
 
-| COLOR | DESCRIPTION | RECOMMENDATIONS |
-|:---:  | :--- | :--- |  
-| <span style="color: #88cc66"><b> GREEN </b></span> | Priority forest habitat blocks. | Protect forest cover; discourage long single- and multi- residence driveways. |  
-| <span style="color: #AC66CC"><b> PURPLE </b></span> | Habitat connectors including both early successional lands and current agricultural lands. | Protect farmlands and natural reserves; encourage adaptive agriculture and reforesting corridors. |
-| <span style="color:#66C4CC"><b> BLUE </b></span> | Surface waters. | Protect nearshore riparian habitat. |
+## Workflow  
 
-## Description  
-
-The project consists of the following routines.  
+The model consists of the following routines.  
 
 | STEP | SCRIPT | SOURCE | DESCRIPTION |
 | :--:  | :---   | :---:   | :---        | 
