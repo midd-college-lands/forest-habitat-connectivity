@@ -54,13 +54,7 @@ The model consists of the following routines.
 | 3 | clearings.js | [ee repo][ee-repo] | Identify clearings maintained by human activity from landcover and e911 footprints; export as geoTiff.  |  
 | 4 | rarity.js | [ee repo][ee-repo] | Identify rare natural communities and rare plant locations from ANR natural heritage datasets. This contributes to the block qualities assessment (along with core area of blocks). |   
 | 5 | blocks.py | [github][hb] | Identify blocks of habitat with qualities that make them conservation priorities. Invert clearings to represent contiguous blocks of reforesting habitat, isolate core habitat at least 200 meters from edge, isolate cores that are greater than five acres. Combine recovering blocks that include either rare natural communities or rare plant species. The resulting layer identifies blocks with rare natural communities, rare plant locations, or containing a 'core' area (200 meters distant from edge) of five acres or more. |  
-| 6 | connectors.py | [github][hc] | Select valley bottoms that connect two or more priority blocks. Check that connectors and blocks create continuous habitat for study region. | 
-
-## Known issues 
-
-The priority forest habitat blocks are somewhat conservative, as they are based on only three criteria (core, rare natural communities, rare plant species). Please contact me if you think there are important blocks of forest habitat that are not captured by the model. Ideally, you could suggest an additional criteria that the model should consider to identify priority blocks.  
-
-The next iteration of the model will aim to distinguish connectors with reforesting habitat (priorities to protect current conditions) from potential connectors that are currently under the influence of agriculture (priorities for reforesting projects). 
+| 6 | connectors.py | [github][hc] | Select valley bottoms that connect two or more priority blocks. Check that connectors and blocks create continuous habitat for study region. |   
 
 [ee-repo]: https://code.earthengine.google.com/?accept_repo=users/jhowarth/college-lands   
 
